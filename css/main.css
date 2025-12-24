@@ -200,31 +200,94 @@
     margin: 0
 }
 
-.world_inner_left_link {
-    width: 796px;
-    max-width: 100%;
-    background-color: #ebebee;
-    text-decoration: none;
-    padding: 13px 370px;
-    gap: 10px;
-    border-radius: 10px;
-    color: rgba(0, 0, 0, 1);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 100%;
-}
 
-.world_inner_right {
+.world-imgg {
+    align-items: center;
+    padding: 40px;
+}
+/* world start */
+.world-inner {
     display: flex;
-    flex-direction: column;
-    background-color: hsl(from color h s l);
+    gap: 10px;
 }
 
-.world_inner_right_title {
+.world-left {
+    width: 797px;
+    margin: 0;
+}
+
+.world-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    color: #000;
+}
+
+.world-list {
+    list-style: none;
+    /* margin-bottom: 17px; */
+}
+
+.world-item {
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 17px;
+    align-items: center;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.world-img {
+    width: 210px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.world-item-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.world-item-desc {
+    font-size: 16px;
+    color: #4A4B4C55;
+    font-weight: 400;
+    margin: 0 0 17px 0;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+}
+
+.world-inner-left-link {
+    background-color: #EAEAEA;
+    color: #000;
+    margin-bottom: 100px;
+    text-decoration: none;
+    padding: 17px 323px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.world-inner-left-link:hover {
+    background-color: #a7a7a7;
+}
+
+/* .world-right-top {
     width: 393px;
     background: #ffffff;
     padding: 20px 0;
     border-radius: 15px;
+} */
+
+.world_inner_right_list {
+    list-style: none;
+    background-color: rgba(246, 246, 246, 1);
 }
 
 .world_inner_right_list_item_title {
@@ -243,8 +306,10 @@
     border-bottom: 1px solid #D2D2D2;
 }
 
+.world_inner_right img {
+    border-radius: 15px;
+}
 
-/* footer start */
 .footer {
     background: #7297EF;
     padding: 40px 0;
